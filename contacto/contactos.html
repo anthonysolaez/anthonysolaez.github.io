@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<title>contactos</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contáctenos</a></li>
+                <li><a href="#">Ubicaciones</a></li>
+                <li><a href="#">Acerca de nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+<br><br>
+
+
+	<div class="contenedor-formulario">
+		<div class="wrap">
+			<form action="" class="formulario" name="formulario_registro" method="get">
+				<div>
+					<div class="input-group">
+						<input type="text" id="nombre" name="nombre">
+						<label class="label" for="nombre">Nombre:</label>
+					</div>
+					<div class="input-group">
+						<input type="email" id="correo" name="correo">
+						<label class="label" for="correo">Correo:</label>
+					</div>
+					<div class="input-group">
+						<input type="text" id="pass" name="fecha">
+						<label class="label" for="pass">Fecha de nacimiento:</label>
+					</div>
+					<div class="input-group">
+						<input type="text" id="pass2" name="telefono">
+						<label class="label" for="pass2">Telefono:</label>
+					</div>
+					<div class="input-group">
+						<input type="text" id="pass2" name="sugerencia">
+						<label class="label" for="pass2">Sugerencias:</label>
+					</div>
+					<div class="input-group">
+					<label for="availability">Seleccion de horario</label>
+					<select id="availability" name="availability" required>
+						<option value="morning">Mañana</option>
+						<option value="t">Tarde</option>
+						<option value="2">Noche</option>
+					</select>
+						
+					</div>
+					<div class="input-group radio">
+						<input type="radio" name="sexo" id="hombre" value="Hombre">
+						<label for="hombre">Hombre</label>
+						<input type="radio" name="sexo" id="mujer" value="Mujer">
+						<label for="mujer">Mujer</label>
+					</div>
+						
+					<input type="submit" id="btn-submit" value="Enviar">
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<script src="js/formulario.js"></script>
+
+	
+    <footer>
+        <div class="copyright">
+            <p>&copy; 2024 Anthony José Guerrero Solaez. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
